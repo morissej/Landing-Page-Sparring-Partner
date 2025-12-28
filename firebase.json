@@ -1,0 +1,11 @@
+{
+    "hosting": {
+        "target": "nexdeal-sparring",
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}

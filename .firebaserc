@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "vague-transmission"
+  },
+  "targets": {
+    "vague-transmission": {
+      "hosting": {
+        "nexdeal-advisory": [
+          "nexdeal-advisory"
+        ],
+        "nexdeal-sparring": [
+          "nexdeal-sparring"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
