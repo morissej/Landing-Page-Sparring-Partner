@@ -232,16 +232,7 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
-
-        const firebaseConfig = {
-            apiKey: "AIzaSyAU3uKS9henFAU0VQ1wpQAFrezuHz9IP74",
-            authDomain: "vague-transmission.firebaseapp.com",
-            projectId: "vague-transmission",
-            storageBucket: "vague-transmission.firebasestorage.app",
-            messagingSenderId: "574510313990",
-            appId: "1:574510313990:web:fd38c604acf265c7f90987",
-            measurementId: "G-P528ETG4P9"
-        };
+        import { firebaseConfig } from "./firebase-config.js";
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
