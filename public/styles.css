@@ -554,3 +554,33 @@ a {
     display: block;
     margin: 0;
 }
+
+/* Button Grid for Pain Points */
+.grid-3-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.grid-3-buttons .btn {
+    width: 100%;
+    margin-right: 0 !important;
+    /* Override potential inline styles if any remaining */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    /* Ensure equal height */
+    white-space: normal;
+    /* Allow text wrapping inside button if needed */
+    line-height: 1.2;
+    padding: 1rem;
+}
+
+@media (max-width: 900px) {
+    .grid-3-buttons {
+        grid-template-columns: 1fr;
+    }
+}
